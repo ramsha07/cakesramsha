@@ -1,0 +1,212 @@
+.{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #136962;
+}
+
+body{
+    background-color: #136962;   
+}
+
+.topbar{
+    background-color:goldenrod;
+    font-weight:bolder;
+    word-spacing: 4px;
+   
+}
+.topbar a{
+    color: black;
+    
+}
+
+.topbar a:hover{
+    
+color:  #136962 ;
+}
+
+.navbar ul li{
+    margin: 20px;
+}
+
+.navbar ul li a{
+    border-radius: 0px;
+    padding: 10px 20px !important;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+.navbar ul li a:hover{
+    background-color: goldenrod;
+    color: white !important;
+}
+
+
+
+
+.dropdown-menu{
+    background-color: #136962;
+    display: none;
+    position: absolute;
+}
+
+
+
+.dropdown a:hover +.dropdown-menu{
+    display: block;
+}
+
+
+.dropdown-menu:hover{
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header,.navbar{
+    background-color: #136962 !important;
+}
+
+.nav-link{
+    color: black !important;
+    font-weight: bold;
+
+}
+
+.fa-shopping-cart{
+font-size: 32px !important;
+
+}
+
+.fa-user-o{
+    font-size: 30px !important;
+
+}
+
+.fa-plane,.fa-suitcase,.fa-calendar{
+    font-size: 50px !important;
+    margin-right: 10px;
+    color: goldenrod;
+
+}
+
+
+.card1,.card2,.card3{
+    display: flex;
+    width: 30opx;
+    height: 100px;
+    background-color: white;
+    box-shadow: 4px 6px 8px goldenrod;
+    color: #136962 ;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  
+}
+
+.mainCard{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.newProducts{
+    margin-top: 50px;
+}
+
+.card{
+    margin-bottom: 5px;
+    height: auto !important;
+}
+.card-text{
+    font-weight: bold;
+}
+
+.btn-primary{
+    width: 100%;
+    background-color:  #136962 ;
+}
+
+.btn-primary:hover{
+    background-color: goldenrod;
+}
+
+.heading{
+    font-weight: bold;
+    color: #136962;
+    margin: 20px;
+   
+}
+
+.heading > h1 {
+    text-shadow: 2px 2px 4px goldenrod;
+}
+
+.footer{
+    width: 100%;
+    background-color: goldenrod;
+    height: 70px;
+}
+
+.footer > div{
+justify-content: center !important;
+align-items: center;
+}
+
+
+.back1 {
+    background-image: url("images/tulip.gif");
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+.no-gutters{
+    background-color: lightblue;
+}
+
+.btn-primary{
+    background-color: goldenrod !important;
+}
+
+.btn-primary:hover{
+    background-color: palevioletred !important;
+}
+@media screen and (max-width:600px) {
+    .card1,.card2,.card3{
+        width: 100%;
+        text-align: center;
+    }
+}
